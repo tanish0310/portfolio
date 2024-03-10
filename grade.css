@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background-color: rgb(16, 16, 16);
+    color: rgb(85, 255, 204);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.container h1 {
+    margin: 70px 0 15px;
+    letter-spacing: 2px;
+}
+
+.all-subject {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin-bottom: 10px;
+}
+
+.all-subject input {
+    background: none;
+    outline: none;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    border: 1.8px solid rgb(85, 255, 204);
+    color: rgb(85, 255, 204);
+    border-radius: 1.5px;
+    font-size: 20px;
+}
+
+.all-subject input::placeholder {
+    font-size: 18px;
+    letter-spacing: .8px;
+    color: rgb(85, 255, 204);
+}
+
+.result-box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.result-box button {
+    width: 180px;
+    height: 50px;
+    background-color: rgb(85, 255, 204);
+    color: rgb(16, 16, 16);
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.result-box p {
+    width: 600px;
+    height: 90px;
+    border: 2px solid rgb(85, 255, 204);
+    border-radius: 8px;
+    color: rgb(85, 255, 204);
+    font-size: 20px;
+    padding: 10px 0 0 20px;
+}
+
+.result-box p b {color: rgb(0, 255, 179);}
